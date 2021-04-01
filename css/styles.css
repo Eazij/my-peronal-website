@@ -1,0 +1,181 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-bold";
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 550;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+#title {
+    background-color: #FF4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 4% 15% 7%;
+}
+
+
+/* navigation */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* Download Buttons */
+
+.d-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Title image */
+
+.title-image {
+    position: absolute;
+    width: 50%;
+    transform: rotate(25deg);
+    margin-left: 30px;
+}
+
+
+/* Features  section*/
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 6%;
+}
+
+
+/* ICONS */
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FF4c68;
+}
+
+
+/* Testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #351f39;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #351f39;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+
+/* pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Call for Action */
+
+#cta {
+    padding: 100px;
+    text-align: center;
+    background-color: #314e52;
+    color: #fff;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
